@@ -131,6 +131,8 @@ main(int argc, char* argv[])
     anim.SetConstantPosition(host.Get(1),20.0,30.0);
     
     //tcpdump -nn -tt -r second-1-0.pcap
+    //tcpdump -nn -tt -r second-0-0.pcap
+    //tcpdump -nn -tt -r second-2-0.pcap
     
     Simulator::Run();
     Simulator::Destroy();
